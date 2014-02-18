@@ -3,7 +3,8 @@
 from random import choice 
 
 # choose a number
-secret_number = 5
+dont_look = [1,2,3,4,5,6,7,8,9,10]
+secret_number = choice(dont_look)
 
 # ask user to guess a number 
 some_number = raw_input() 
